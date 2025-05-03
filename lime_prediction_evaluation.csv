@@ -1,0 +1,16 @@
+index,lime_file,text,true_label,predicted_label,correct
+0,lime_index_0.html,oh my gosh,Anxiety,Normal,False
+1,lime_index_1.html,"trouble sleeping, confused mind, restless heart. All out of tune",Anxiety,Anxiety,True
+2,lime_index_2.html,"All wrong, back off dear, forward doubt. Stay in a restless and restless place",Anxiety,Anxiety,True
+3,lime_index_3.html,I've shifted my focus to something else but I'm still worried,Anxiety,Anxiety,True
+4,lime_index_4.html,"I'm restless and restless, it's been a month now, boy. What do you mean?",Anxiety,Anxiety,True
+5,lime_index_5.html,"every break, you must be nervous, like something is wrong, but what the heck",Anxiety,Anxiety,True
+6,lime_index_6.html,"I feel scared, anxious, what can I do? And may my family or us be protected :)",Anxiety,Anxiety,True
+7,lime_index_7.html,Have you ever felt nervous but didn't know why?,Anxiety,Anxiety,True
+8,lime_index_8.html,"I haven't slept well for 2 days, it's like I'm restless. why huh :([].",Anxiety,Anxiety,True
+9,lime_index_9.html,"I'm really worried, I want to cry.",Anxiety,Stress,False
+10,lime_index_10.html,"always restless every night, even though I don't know why, what's wrong. strange.",Anxiety,Anxiety,True
+11,lime_index_11.html,"I'm confused, I'm not feeling good lately. Every time I want to sleep, I always feel restless",Anxiety,Anxiety,True
+12,lime_index_12.html,"sometimes what is needed when there is a problem is to laugh until you forget that there is a problem, when you remember it, you feel restless like that well, it turns out that I still have a sad burden blah blah blah",Anxiety,Anxiety,True
+13,lime_index_13.html,Because this worry is you.,Anxiety,Anxiety,True
+14,lime_index_14.html,Sometimes it's your own thoughts that make you anxious and afraid to close your eyes until you don't sleep,Anxiety,Anxiety,True
