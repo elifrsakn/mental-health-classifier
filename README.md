@@ -1,4 +1,3 @@
-
 # 🧠 Mental Health Prediction Classifier with XAI
 
 This project is a multi-class classification model designed to predict individuals' **mental health status** based on free-form text inputs. The model integrates **Explainable AI (XAI)** techniques to provide transparent and interpretable results.
@@ -59,25 +58,25 @@ The model predicts among the following **7 categories**:
 
 ---
 
+## 🖼 PCA 2D image
 
+![PCA 2D image](https://i.ibb.co/TBrpkpM3/Ekran-Resmi-2025-05-04-15-06-25.png)
 
+---
 
-## PCA 2D image
+## 🧪 XAI – LIME Output for Index 6
 
-![PCA 2D image ](https://i.ibb.co/TBrpkpM3/Ekran-Resmi-2025-05-04-15-06-25.png)
+![LIME Output](https://i.ibb.co/84XTbJ7W/Ekran-Resmi-2025-05-04-15-06-35.png)
 
+---
 
-## XAI - LIME OUTPUT FOR INDEX 6
+## 🤖 Hugging Face + Gradio Interface
 
-![PCA 2D image ](https://i.ibb.co/84XTbJ7W/Ekran-Resmi-2025-05-04-15-06-35.png)
+![Gradio UI](https://media-hosting.imagekit.io/92a2c5b14eb74e18/1745789408013.jpeg?Expires=1840968874&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ms1-hKOkcncYIunQnp9zpxHe07tvnYAylr-uforn-Gc3GIBLSWE0vUD5Ticg1mSMGotH2JEAVZ~Se8VI7O3zzGq2myVBJhufMmPYwcoap~fQbag9FHH7kfMNTLpEb8whQYcnIaT2Ft8-tgNrksoFOJ7oz71Nv8Sjs7dBv02XX0f5ZlW9ww-3tivWg1PMyWvygUS---S6rMqAL5LLBhjcl9EQ0TFq7hkaXMyxpk-3LnfbzL5WoHzgByf2HQE3z0Gz1qQHltHw9DPv7GlTiHrrTvWNXfKR7mhSwMpWvWZIreKc-QrZ7knXMNXEH3Bu7mQl5iCFfcN1IlqCHgrtfV83Fw__)
 
-
-## Hugging Face with Gradio Interface
-
-![PCA 2D image ](https://media-hosting.imagekit.io/92a2c5b14eb74e18/1745789408013.jpeg?Expires=1840968874&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ms1-hKOkcncYIunQnp9zpxHe07tvnYAylr-uforn-Gc3GIBLSWE0vUD5Ticg1mSMGotH2JEAVZ~Se8VI7O3zzGq2myVBJhufMmPYwcoap~fQbag9FHH7kfMNTLpEb8whQYcnIaT2Ft8-tgNrksoFOJ7oz71Nv8Sjs7dBv02XX0f5ZlW9ww-3tivWg1PMyWvygUS---S6rMqAL5LLBhjcl9EQ0TFq7hkaXMyxpk-3LnfbzL5WoHzgByf2HQE3z0Gz1qQHltHw9DPv7GlTiHrrTvWNXfKR7mhSwMpWvWZIreKc-QrZ7knXMNXEH3Bu7mQl5iCFfcN1IlqCHgrtfV83Fw__)
+---
 
 ## 🧩 Project Pipeline – Mental Health Prediction Classifier with XAI
-
 
 ```mermaid
 graph TD
@@ -89,17 +88,12 @@ E --> F[🌲 XGBoost Classifier\nMulti-class prediction]
 F --> G[🧠 Class Probabilities\n7-Class Softmax Output]
 G --> H[🏷️ Final Prediction\nMost probable class shown]
 F --> I[🧩 Explainability\nLIME visual explanation]
-
 ```
-## Installation & Run
 
-```bash
 git clone https://github.com/elifsakin/mental-health-classifier-xai.git
 cd mental-health-classifier-xai
 pip install -r requirements.txt
 python app.py  # or streamlit run app.py
-
-
 
 
 
